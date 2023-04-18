@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Final Project</title>
+    <link rel="stylesheet" href="styles.css">
+    <!--Lauren Tibbits, CSCE 102 13, 2/15/2023-->
+</head>
+<body>
+    <div id="content">
+    <header>
+        <h1>Lauren Tibbits</h1>
+    </header>
+    <nav id="main-nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div data-num="1" id="slideshow-div" class="slideshow">
+            <img id="landscape" src="images/landscape.jpg" class="show">
+            <img id="palm-tree" src="images/palmtree.jpg" class="hidden">
+            <img id="plane" src="images/plane.jpg" class="hidden">
+            <img id="sunrise" src="images/sunrise.jpg" class="hidden">
+        </div>
+        <section class="text">
+            <div class="description">
+                <h2 id="about-me">About Me</h2>
+                <p> My name is Lauren Tibbits. I am 18 years old and a freshman at the University of South Carolina. I am from Cincinnati, Ohio. I have two brothers and a sister as well as two dogs. I am very close with my family and consider them to be some of the most important people in my life. Moving far from home was a difficult decision for me to make, but one that I am very proud I was able to do and have been thankful for this decision every day.</p>
+                <p id="aboutme-2" class="hidden"> I am someone who loves to take risks and push boundaries. I set high goals for myself and hold myself to them. Aside from my drive to reach my professional goals, I also love to spend time in the gym. This is something that I find to be stress relieving. I also enjoy spending time with my friends and find comfort with the people I love. I am someone who looks to find the best in every situation and appreciate the place that I am at in life. With that, I am excited to see what my future holds here in South Carolina.</p>
+                <a href="#about-me" id="showmore" onclick="showMore()">Show more...</a>
+            </div>
+            <div class="description">
+                <h2 id="description">Career Goals</h2>
+                <p> In the future, I plan to become a physician. I am currently a double major in biochemistry and spanish. After that, I hope to attend medical school at the Ohio State University. I would love to complete my residency in anesthesia, and further specialize in pediatrics. Anesthesia is especially interesting to me because this is a specialty that I would get to be a part of all different types of procedures.</p>
+                <p id="description2" class="hidden"> I want to become a physician because I have always been interested in medicine. My dad has always been an inspiration to me since I've grown up seeing how happy he is in his career. I know that being a physician is something that I would enjoy every day and would feel truly proud of the work that I do. I want to bring people a sense of comfort and safety in the hospital, especially since this is a place that most people don't associate with those feelings.</p>
+                <a href="#description" id="showmore2" onclick="showMore2()">Show more...</a>
+            </div>
+        </section>
+        <div class="text">
+            <h2>What I Learned From Computer Science</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/P0Jo78gdyAk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </main>
+    <footer>
+        <p>&copy;Lauren Tibbits</p>
+    </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
