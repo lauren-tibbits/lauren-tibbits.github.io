@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Final Project</title>
+    <link rel="stylesheet" href="styles.css">
+    <!--Lauren Tibbits, CSCE 102 13, 2/15/2023-->
+</head>
+<body>
+    <div id="content">
+    <header>
+        <h1>Lauren Tibbits</h1>
+    </header>
+    <nav id="main-nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+        </ul>
+    </nav>
+    <main>
+        <p>
+            <label for="html">HTML stands for:</label>
+            <select id="html">
+                <option>Hyper Type Message Language</option>
+                <option>Hyper Text Meta Language</option>
+                <option>Nothing</option>
+                <option>Hype Text Message Language</option>
+            </select>
+        </p>
+        <p>
+            <label for="if">If Statements are used to:</label>
+            <select id="if">
+                <option>Loop through a function until conditions aren't met anymore</option>
+                <option>Perform a function when a button is clicked</option>
+                <option>Execute code if conditions are met</option>
+                <option>Incorporate Java Script</option>
+            </select>
+        </p>
+        <button onclick="quizResults()">Show Results</button>
+        <p id="results"></p>
+        <p id="score"></p>
+    </main>
+    <footer>
+        <p>&copy;Lauren Tibbits</p>
+    </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

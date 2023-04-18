@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Final Project</title>
+    <link rel="stylesheet" href="styles.css">
+    <!--Lauren Tibbits, CSCE 102 13, 2/15/2023-->
+</head>
+<body>
+    <div id="content">
+    <header>
+        <h1>Lauren Tibbits</h1>
+    </header>
+    <nav id="main-nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+        </ul>
+    </nav>
+    <main class="container">
+        <section id="form">
+            <form action="https://api.web3forms.com/submit" method="POST">
+
+                <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+                <p>Name:</p>
+                <input type="text" name="name" required>
+                <p>Email:</p>
+                <input type="email" name="email" required>
+                <p>Message:</p>
+                <textarea name="message" required></textarea>
+                <input type="hidden" name="redirect" value="https://web3forms.com/success">
+                <br>
+                <button type="submit">Send</button>
+
+            </form> 
+        </section>
+        <section id="map">
+            <h3>Directions</h3>
+            <p><strong>Science and Technology Building</strong></p>
+            <p>1522 Blossom St.</p>
+            <p>Columbia, SC, 29201</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13231.651914778025!2d-81.0316027!3d33.9947689!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f8bb98c79864f3%3A0xb0876d5efd5a2ed8!2sUniversity%20of%20South%20Carolina%20Science%20and%20Technology%20Building!5e0!3m2!1sen!2sus!4v1677368025150!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;Lauren Tibbits</p>
+    </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
