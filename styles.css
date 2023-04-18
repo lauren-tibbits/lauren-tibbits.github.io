@@ -1,7 +1,6 @@
 body {
     font-family:arial;
     background:#EDC5D9;
-    border:2px solid black
 }
 
 /*Main Content*/
@@ -65,6 +64,7 @@ main {
     #content {
         width:80%;
         margin:auto;
+        border:2px solid black
     }
 
     header, nav, footer {
